@@ -1,0 +1,8 @@
+h2 #{post.title}
+
+.post-meta
+  include meta
+  +postDate(post.date)
+  +postCategory(post.categories)
+
+.post-body  !{post.content}

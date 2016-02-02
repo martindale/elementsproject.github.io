@@ -1,0 +1,27 @@
+extends layouts/elements
+
+prepend site-title
+  | #{page.title} &mdash;&nbsp;
+
+block content
+  
+  include partials/menu
+  
+  .ui.main.text.container
+    .ui.cards
+      - site.posts.each(function(page, i) {
+        .ui.fluid.card
+          .content
+            .meta
+              .right.floated.time #{page.date}
+            a.header(href="#{page.path}") #{page.title}
+            .description
+              p !{page.excerpt}
+          .extra.content
+            .right.floated.meta
+              a.ui.button(href="#{page.path}") Read More
+                i.icon.chevron.right
+            if (page.author)
+              include partials/author
+            
+      - });
