@@ -1,14 +1,14 @@
 ---
 title: "The Periodic Table of Elements"
-source: https://github.com/ElementsProject/elementsproject.github.io/edit/hexo/source/elements/index.md
-edit: https://github.com/ElementsProject/elementsproject.github.io/edit/hexo/source/elements/index.md
+source: https://github.com/ElementsProject/elementsproject.org/edit/master/source/elements/index.md
+edit: https://github.com/ElementsProject/elementsproject.org/edit/master/source/elements/index.md
 ---
 
 <style type="text/css">
   img {
     max-width: 100%;
   }
-  
+
   .ui.statistic > .value {
     text-transform: none;
   }

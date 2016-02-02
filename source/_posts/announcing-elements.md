@@ -1,8 +1,8 @@
 ---
 title: Announcing the New Elements Project
 subtitle: Open source code and developer sidechains for advancing Bitcoin.
-source: https://github.com/ElementsProject/elementsproject.github.io/blob/hexo/source/_posts/announcing-elements.md
-edit: https://github.com/ElementsProject/elementsproject.github.io/edit/hexo/source/_posts/announcing-elements.md
+source: https://github.com/ElementsProject/elementsproject.org/blob/master/source/_posts/announcing-elements.md
+edit: https://github.com/ElementsProject/elementsproject.org/edit/master/source/_posts/announcing-elements.md
 author: martindale
 ---
 
@@ -40,8 +40,8 @@ directly to graphical editors for quick fixes.  We want the Elements Project to
 be a community resource, including the highlighting of projects that make use of
 Elements, or are otherwise deployed on a sidechain.
 
-Contributing to the Elements Project website should be very familiar to most 
-developers, but the graphical editor makes it accessible to all.  If you'd like 
+Contributing to the Elements Project website should be very familiar to most
+developers, but the graphical editor makes it accessible to all.  If you'd like
 to contribute, head over to [the Contributing guide][contributing].
 
 ### Sidechain Developer Community
