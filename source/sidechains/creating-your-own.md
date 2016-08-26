@@ -3,6 +3,14 @@ title: Building A New Sidechain with Elements
 edit: https://github.com/ElementsProject/elementsproject.github.io/blob/master/source/sidechains/creating-your-own.md
 source: https://github.com/ElementsProject/elementsproject.github.io/edit/master/source/sidechains/creating-your-own.md
 ---
+<style type="text/css">
+pre {
+  max-width: 700px;
+  overflow-x: scroll;
+}
+</style>
+
+
 This is a basic step-by-step guide to building your own sidechain and setting up
 a federated peg mechanism.  This configuration works to run a sidechain with
 a 1-of-1 functionary/blocksigner. (Not tested on multiple nodes with more than 1
