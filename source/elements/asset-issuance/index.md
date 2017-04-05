@@ -58,7 +58,7 @@ $ elements-cli getwalletinfo
 > {
   "walletversion": 130000,
   "balance": {
-    "funcoin": 1020.00000000
+    "8854427e5ffcb0b837e85832b901b1135cc4ac766f537e2a7f07b71a76c5b9cf": 1020.00000000
   },
   "unconfirmed_balance": {
   },
@@ -89,9 +89,6 @@ consensus-enforced tagging has many advantages:
 * Allows more complex consensus-enforced contracts.
 * Benefits from other consensus-enforced extensions (ie confidential transactions would not be compatible with colored coins on top of Alpha).
 * Opens the door for further consensus-enforced extensions that rely on the chain being able to operate with multiple assets.
-
-Currently only the hostcoin can be used to pay fees, but it should be possible
-to pay fees of different asset types simultaneously.
 
 <div class="ui info message">
   <h4 class="header">Looking for the original investigation?</h4>
