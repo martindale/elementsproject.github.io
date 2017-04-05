@@ -170,11 +170,9 @@ use with CT can be used with few modifications with CA, giving them the
 power to confidently and confidentially handle multi-asset transactions.
 Examples of such technologies are 
 
-- ValueShuffle (add link, also check with Tim if the name has changed)
+- [ValueShuffle](https://eprint.iacr.org/2017/238.pdf)
 - [MimbleWimble](http://diyhpl.us/~bryan/papers2/bitcoin/mimblewimble.txt)
 - [Scriptless Scripts](https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-03-mit-bitcoin-expo/slides.pdf)
 
 We are looking forward to the future, as many exciting developments
 continue to appear.
-
-
