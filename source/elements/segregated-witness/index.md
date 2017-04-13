@@ -1,6 +1,6 @@
 ---
 title: Segregated Witness
-description: Reduce the required space for transactions in a block by a factor of 4.
+description: Optimization.  Migrate signature retention from "required" to "optional".
 image: /img/segregated-witness.svg
 source: https://github.com/ElementsProject/elementsproject.github.io/blob/master/source/elements/segregated-witness/index.md
 edit: https://github.com/ElementsProject/elementsproject.github.io/edit/master/source/elements/segregated-witness/index.md
@@ -8,12 +8,16 @@ edit: https://github.com/ElementsProject/elementsproject.github.io/edit/master/s
 
 *Principal Investigator: Pieter Wuille*
 
+<div class="ui center aligned container">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NOYNZB5BCHM" frameborder="0" allowfullscreen></iframe>
+</div>
+
 With Segregated Witness, the specification of a transaction’s effects on the
 ledger is separated from the data necessary to prove its validity (called a
 witness in cryptography). This completely eliminates all known forms of
 transaction malleability, and allows significant blockchain pruning
 optimizations.
-
+  
 In Bitcoin, transactions contain both information about the effect on the ledger
 (UTXOs being spent, addresses, and amounts involved) and data proving that the
 transaction is authorized (input signatures). For Witness Segregation,
