@@ -23,3 +23,8 @@ npm start
 ```
 
 That's it.  Make modifications, commit them, and submit a pull request.
+
+## Generating Static Builds
+You can generate a static build by using the `./node_modules/.bin/hexo
+generate` command, or more simply by using `hexo generate` if Hexo has been
+installed globally with `npm install hexo -g`.
